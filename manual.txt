@@ -1,0 +1,4 @@
+VScode - instalar extenção "html preview"
+
+Atlho VSCode:
+ctrl - shift - p : preview html

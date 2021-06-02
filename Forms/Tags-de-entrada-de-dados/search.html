@@ -1,0 +1,24 @@
+<!-- 
+    <input type="search"/>
+
+    - Para campos de buscar
+    - É igual ao campo tipo 'text' mas poderá ser um pouco diferente
+    dependentod do user agent
+
+    # Atributos
+
+    - list / <datalist>
+    - pattern // recebe uma expreção (campo de validação)
+        exemplo: pattern = [0-9] {2} // dois númeoros ex: 99
+    - arial-label // quando não tem o label
+-->
+
+<datalist id="searchterms">
+    <option>Mac</option>
+    <option>Linux</option>
+    <option>Windows</option>
+</datalist>
+
+<input type="search" name="q" list="searchterms">
+
+<!-- q=searchterm -->
